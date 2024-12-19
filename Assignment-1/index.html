@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Neon Website</title>
+    <style>
+        /* styles.css */
+        body {
+            font-family: 'Roboto', sans-serif;
+            background: radial-gradient(circle, #000000, #121212, #1f1f1f);
+            color: #eaeaea;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            text-align: center;
+            padding: 20px 0;
+            background: linear-gradient(to right, #1f1f1f, #2c2c2c);
+            box-shadow: 0 0 15px #4f6cff, 0 0 25px #4f6cff;
+        }
+
+        header h1 {
+            color: #4f6cff;
+            font-size: 2.8rem;
+            letter-spacing: 2px;
+            text-shadow: 0 0 25px #4f6cff, 0 0 40px #4f6cff;
+            margin: 0;
+        }
+
+        nav a {
+            color: #ffffff;
+            text-decoration: none;
+            font-size: 1.2rem;
+            margin: 0 15px;
+            text-shadow: 0 0 10px #6b4cff, 0 0 20px #6b4cff;
+            transition: color 0.3s, transform 0.3s;
+        }
+
+        nav a:hover {
+            color: #4f6cff;
+            text-shadow: 0 0 25px #4f6cff, 0 0 35px #4f6cff;
+            transform: scale(1.1);
+        }
+
+        main {
+            padding: 40px 20px;
+            text-align: center;
+        }
+
+        .intro,
+        .highlights {
+            margin: 30px auto;
+            max-width: 800px;
+            background: linear-gradient(135deg, #232323, #2c2c2c);
+            padding: 25px;
+            border-radius: 12px;
+            box-shadow: 0 0 20px #6b4cff, 0 0 30px #6b4cff;
+        }
+
+        .intro h2,
+        .highlights h2 {
+            color: #6b4cff;
+            font-size: 2rem;
+            text-shadow: 0 0 30px #6b4cff, 0 0 50px #6b4cff;
+            margin-bottom: 15px;
+        }
+
+        .intro p,
+        .highlights p {
+            color: #eaeaea;
+            font-size: 1.1rem;
+            line-height: 1.6;
+            text-shadow: 0 0 10px #4f6cff;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>Welcome to Our Website</h1>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="resume.html">Resume</a>
+            <a href="biodata.html">Bio-data</a>
+        </nav>
+    </header>
+    <main>
+        <section class="intro">
+            <p>Hi, we are Vinyas, Shreesha, Srijan, Shrikant</p>
+            <p> A passionate web developer's and computer science student's. This is my personal website where you can
+                explore our work, resume, and learn more about us.</p>
+        </section>
+        <section class="highlights">
+            <h2>What You Can Find Here</h2>
+            <ul>
+                <li><strong>Resume:</strong> Our professional journey and skills.</li>
+                <li><strong>Bio-data:</strong> A detailed profile about us.</li>
+                <li><strong>Portfolio:</strong> My projects and achievements.</li>
+            </ul>
+        </section>
+    </main>
+
+</body>
+
+</html>

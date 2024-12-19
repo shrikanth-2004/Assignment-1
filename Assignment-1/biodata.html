@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bio Data</title>
+    <style>
+        /* styles.css */
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #121212;
+            color: #eaeaea;
+        }
+
+        header {
+            background: linear-gradient(to right, #1a1a1a, #2c2c2c);
+            padding: 20px;
+            text-align: center;
+            box-shadow: 0 0 15px #4f6cff;
+        }
+
+        .navbar {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+        }
+
+        .navbar .nav-link {
+            color: #fff;
+            text-decoration: none;
+            font-size: 1.2rem;
+            text-shadow: 0 0 10px #6b4cff, 0 0 20px #6b4cff;
+            transition: color 0.3s ease, transform 0.3s ease;
+        }
+
+        .navbar .nav-link:hover {
+            color: #4f6cff;
+            text-shadow: 0 0 20px #4f6cff, 0 0 30px #4f6cff;
+            transform: scale(1.1);
+        }
+
+        main {
+            padding: 20px;
+            text-align: center;
+        }
+
+        .biodata-section {
+            background: #1a1a1a;
+            max-width: 900px;
+            margin: 20px auto;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 20px #4f6cff;
+        }
+
+        .title {
+            font-size: 2.5rem;
+            color: #4f6cff;
+            text-shadow: 0 0 15px #4f6cff, 0 0 25px #4f6cff;
+        }
+
+        .description {
+            font-size: 1.2rem;
+            color: #eaeaea;
+            margin-bottom: 20px;
+        }
+
+        .biodata-container {
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+        }
+
+        .biodata-item {
+            background: linear-gradient(to bottom, #2c2c2c, #1a1a1a);
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 15px #6b4cff;
+        }
+
+        .biodata-heading {
+            font-size: 1.8rem;
+            color: #6b4cff;
+            text-shadow: 0 0 20px #6b4cff, 0 0 30px #6b4cff;
+            margin-bottom: 10px;
+        }
+
+        .biodata-list {
+            list-style: none;
+            padding: 0;
+            display: flex;
+            flex-wrap: wrap;
+            gap: 15px;
+            justify-content: center;
+        }
+
+        .biodata-list li {
+            font-size: 1.1rem;
+            color: #eaeaea;
+            padding: 10px;
+            background: #2c2c2c;
+            border-radius: 5px;
+            text-shadow: 0 0 10px #4f6cff;
+            width: 45%; /* Adjusts the size to make the items align better */
+        }
+
+        footer {
+            background: linear-gradient(to right, #1a1a1a, #2c2c2c);
+            padding: 20px;
+            text-align: center;
+            color: #eaeaea;
+            text-shadow: 0 0 10px #4f6cff;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <ul class="navbar">
+                <li><a href="index.html" class="nav-link">Home</a></li>
+                <li><a href="biodata.html" class="nav-link">Bio Data</a></li>
+                <li><a href="resume.html" class="nav-link">Resume</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="biodata-section">
+            <h1 class="title">Bio Data</h1>
+            <p class="description">Here is an overview of my personal and professional background.</p>
+
+            <div class="biodata-container">
+                <div class="biodata-item">
+                    <h2 class="biodata-heading">Personal Information</h2>
+                    <ul class="biodata-list">
+                        <li><strong>Name:</strong> Vinyas</li>
+                        <li><strong>Date of Birth:</strong> 24 August, 2004</li>
+                        <li><strong>Address:</strong> Bantakal</li>
+                        <li><strong>Phone:</strong> 6360361507</li>
+                        <li><strong>Email:</strong> vinyas.22cs183@sode-edu.in</li>
+                    </ul>
+                    <ul class="biodata-list">
+                        <li><strong>Name:</strong> Shreesha</li>
+                        <li><strong>Date of Birth:</strong> 12 June, 2004</li>
+                        <li><strong>Address:</strong> Bantakal</li>
+                        <li><strong>Phone:</strong> 9674656014</li>
+                        <li><strong>Email:</strong> shreesha.22cs145@sode-edu.in</li>
+                    </ul>
+                    <ul class="biodata-list">
+                        <li><strong>Name:</strong> Srijan</li>
+                        <li><strong>Date of Birth:</strong> 24 September, 2004</li>
+                        <li><strong>Address:</strong> Bantakal</li>
+                        <li><strong>Phone:</strong> 9900899951</li>
+                        <li><strong>Email:</strong> srijan.22cs160@sode-edu.in</li>
+                    </ul>
+                    <ul class="biodata-list">
+                        <li><strong>Name:</strong> Shrikant</li>
+                        <li><strong>Date of Birth:</strong> 19 August, 2004</li>
+                        <li><strong>Address:</strong> Bantakal</li>
+                        <li><strong>Phone:</strong> 8310883509</li>
+                        <li><strong>Email:</strong> shrikant.22cs150@sode-edu.in</li>
+                    </ul>
+                </div>
+
+                <div class="biodata-item">
+                    <h2 class="biodata-heading">Educational Background</h2>
+                    <ul class="biodata-list">
+                        <li><strong>Degree:</strong> Bachelor of Computer Science</li>
+                        <li><strong>Institution:</strong> Bantakal University</li>
+                        <li><strong>Year of Passing:</strong> 2025</li>
+                        <li><strong>Grade:</strong> A</li>
+                    </ul>
+                </div>
+
+                <div class="biodata-item">
+                    <h2 class="biodata-heading">Hobbies and Interests</h2>
+                    <p>Coding, Reading Tech Blogs, Traveling</p>
+                </div>
+            </div>
+        </section>
+    </main>
+</body>
+
+</html>
